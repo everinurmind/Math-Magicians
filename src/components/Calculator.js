@@ -1,12 +1,18 @@
 import React from 'react';
 import './Calculator.css';
 
+function Display() {
+  return (
+    <div className="display">
+      <span>0</span>
+    </div>
+  );
+}
+
 function Calculator() {
   return (
     <div className="calculator">
-      <div className="display">
-        <span>0</span>
-      </div>
+      <Display />
       <div className="keypad">
         <div className="row">
           <button type="button" className="key">AC</button>
