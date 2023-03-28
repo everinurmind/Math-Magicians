@@ -1,0 +1,57 @@
+.calculator {
+  width: 440px;
+  height: 360px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 5px;
+  font-size: 20px;
+  background-color: #8e8e8e;
+  color: #fff;
+}
+
+.keypad {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  height: 60px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 0 0 0.5px #a1a1a1;
+}
+
+.key:hover {
+  background-color: #ddd;
+}
+
+.operator {
+  background-color: #ff8c00;
+}
+
+.operator:hover {
+  background-color: #ff6300;
+}
+
+.zero {
+  width: 50%;
+}
