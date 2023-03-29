@@ -1,0 +1,30 @@
+/* Quotes Styling */
+.quotes {
+  max-width: 600px;
+  background-color: #ccc;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.quotes .quote {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quotes .author {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  margin: 10px;
+}
+
+.error {
+  color: #f00;
+}
+
+.loading {
+  font-style: italic;
+}
