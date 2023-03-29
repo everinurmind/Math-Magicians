@@ -18,6 +18,7 @@ function Calculator() {
   return (
     <div className="calculator">
       <Display value={calculatorState.next || calculatorState.total || '0'} />
+      <Display value={calculatorState.operation || ''} />
       <div className="keypad">
         <div className="row">
           <button type="button" className="key" onClick={() => handleClick('AC')}>AC</button>
