@@ -16,7 +16,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 To-Do List <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 Hello! Here you will see my first project of the Math Magicians application.
 
