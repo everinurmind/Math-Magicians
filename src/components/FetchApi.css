@@ -28,3 +28,18 @@
 .loading {
   font-style: italic;
 }
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #999;
+}
+
+.button:hover {
+  background-color: #777;
+}
+
+.button:active {
+  background-color: #555;
+}

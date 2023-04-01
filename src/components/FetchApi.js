@@ -12,20 +12,26 @@ function FetchQuotes() {
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
+  const fetchData = async () => {
+    try {
+      const response = await fetch(API_URL, { headers: API_ID });
+      const data = await response.json();
+      setQuotes(data);
+    } catch (error) {
+      setHasError(true);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(API_URL, { headers: API_ID });
-        const data = await response.json();
-        setQuotes(data);
-      } catch (error) {
-        setHasError(true);
-      } finally {
-        setIsLoading(false);
-      }
-    };
     fetchData();
   }, []);
+
+  const handleRefresh = () => {
+    setIsLoading(true);
+    fetchData();
+  };
 
   if (hasError) {
     return <p>Something went wrong. Please try again later.</p>;
@@ -48,6 +54,7 @@ function FetchQuotes() {
         {author}
         {' '}
       </p>
+      <button className="button" type="button" onClick={handleRefresh}>Refresh</button>
     </div>
   );
 }
