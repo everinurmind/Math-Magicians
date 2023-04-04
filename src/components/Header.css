@@ -1,0 +1,42 @@
+.site-header {
+  background-color: #6b7a8f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.site-title {
+  font-size: 36px;
+  margin: 0;
+  padding: 0 15px;
+  text-shadow: 2px 2px #000;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 15px;
+  gap: 25px;
+}
+
+.menu-item {
+  color: #f0c808;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  color: lightpink;
+}
+
+.menu-item.active {
+  color: lightcoral;
+}

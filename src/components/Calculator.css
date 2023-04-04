@@ -1,11 +1,24 @@
 /* Calculator Styling */
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: -40px;
+}
+
 .calculator {
   width: 440px;
   height: 360px;
-  margin: 0 auto;
+  margin-left: 100px;
   border: 1px solid #ccc;
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
 }
 
 .display {
@@ -13,10 +26,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 0 10px;
+  padding: 0 15px;
   font-size: 20px;
   background-color: #8e8e8e;
   color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .keypad {
@@ -50,10 +65,20 @@
   background-color: #ff8c00;
 }
 
+.operator2 {
+  border-bottom-right-radius: 20px;
+  background-color: #ff8c00;
+}
+
 .operator:hover {
+  background-color: #ff6300;
+}
+
+.operator2:hover {
   background-color: #ff6300;
 }
 
 .zero {
   width: 50%;
+  border-bottom-left-radius: 20px;
 }
