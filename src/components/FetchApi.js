@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './FetchApi.css';
+import '../styles/FetchApi.css';
 
 const API_URL = 'https://api.api-ninjas.com/v1/quotes';
 const API_ID = {
