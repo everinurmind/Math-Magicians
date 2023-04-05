@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App.js 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="site-header"
+  >
+    <h1
+      className="site-title"
+    >
+      Math Magicians
+    </h1>
+    <nav
+      className="main-navigation"
+    >
+      <ul
+        className="menu"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="menu-item active"
+            exact={true}
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+         | 
+        <li>
+          <a
+            className="menu-item"
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+         | 
+        <li>
+          <a
+            className="menu-item"
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    className="site-home"
+  >
+    <h2
+      id="site-header"
+    >
+      Welcome to our page!
+    </h2>
+    <section
+      className="text-section"
+    >
+      <p>
+        Welcome to our React app! Our app features a navigation menu with three main pages: Home, Calculator, and Quotes.
+      </p>
+      <p>
+        The Calculator page is a simple yet powerful calculator. Whether you need to add, subtract, multiply, or divide, our calculator has got you covered.
+      </p>
+      <p>
+        The Quotes page is perfect for when you need a little bit of inspiration or motivation. With just a click of a button, you can generate a random quote.
+      </p>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`should render Home component 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="site-header"
+  >
+    <h1
+      className="site-title"
+    >
+      Math Magicians
+    </h1>
+    <nav
+      className="main-navigation"
+    >
+      <ul
+        className="menu"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="menu-item active"
+            exact={true}
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+         | 
+        <li>
+          <a
+            className="menu-item"
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+         | 
+        <li>
+          <a
+            className="menu-item"
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    className="site-home"
+  >
+    <h2
+      id="site-header"
+    >
+      Welcome to our page!
+    </h2>
+    <section
+      className="text-section"
+    >
+      <p>
+        Welcome to our React app! Our app features a navigation menu with three main pages: Home, Calculator, and Quotes.
+      </p>
+      <p>
+        The Calculator page is a simple yet powerful calculator. Whether you need to add, subtract, multiply, or divide, our calculator has got you covered.
+      </p>
+      <p>
+        The Quotes page is perfect for when you need a little bit of inspiration or motivation. With just a click of a button, you can generate a random quote.
+      </p>
+    </section>
+  </div>
+</div>
+`;
