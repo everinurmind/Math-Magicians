@@ -50,7 +50,10 @@ function FetchQuotes() {
         {quote}
         &#34;
       </p>
-      <p className="author">{author} </p>
+      <p className="author">
+        {author}
+        {' '}
+      </p>
       <button className="button" type="button" onClick={handleRefresh}>
         Refresh
       </button>

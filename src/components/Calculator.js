@@ -25,8 +25,8 @@ function Calculator() {
           value={
             calculatorState.operation
               ? `${calculatorState.total} ${calculatorState.operation} ${
-                  calculatorState.next || ''
-                }`
+                calculatorState.next || ''
+              }`
               : calculatorState.next || calculatorState.total || '0'
           }
         />
