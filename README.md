@@ -9,7 +9,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#author)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -18,7 +18,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-Hello! Here you will see my first project of the Math Magicians application.
+Hello! Here you will see our project of the Math Magicians application.
 
 ## 🛠 Built With HTML, CSS and JS <a name="built-with"></a>
 
@@ -71,12 +71,17 @@ npm test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="author"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Nurbol Sultanov**
 
 - GitHub: [@everinurmind](https://github.com/everinurmind)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/everinurmind)
+
+👤 **Nurbol Sultanov**
+
+- GitHub: [@astroboyReloaded](https://github.com/astroboyReloaded)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/astroboyreloaded/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 

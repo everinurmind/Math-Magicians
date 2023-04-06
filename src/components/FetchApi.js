@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './FetchApi.css';
+import '../styles/FetchApi.css';
 
 const API_URL = 'https://api.api-ninjas.com/v1/quotes';
 const API_ID = {
@@ -54,7 +54,9 @@ function FetchQuotes() {
         {author}
         {' '}
       </p>
-      <button className="button" type="button" onClick={handleRefresh}>Refresh</button>
+      <button className="button" type="button" onClick={handleRefresh}>
+        Refresh
+      </button>
     </div>
   );
 }
